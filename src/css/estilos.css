@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+
+    min-height: 100vh;
+    padding: 12.3rem 0; /* espaçamento top e bottom */
+
+    font-weight: 400;
+    font-size: 1.6rem;
+    
+    background-color: var(--casca-de-ovo);
+    color: var(--marrom-medio);
+}
+
+.container {
+    background-color: var(--branco);
+
+    width: 73.6rem;
+    height: auto;
+    margin: 4rem;
+    border-radius: 2rem;
+}
+
+.banner-img {
+    padding: 3.5rem 3.5rem 0;
+}
+
+.banner-img img {
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+.content {
+    padding: 0 3.5rem 3.5rem;
+}
+
+/* HERO */
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+    color: var(--marrom);
+    font-weight: 400;
+}
+
+.hero h1 {
+    color: var(--cinza-escuro);
+
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.hero p {
+    margin-top: 2.9rem;
+}
+
+/* TEMPO DE PREPARO */
+
+.hero article {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+    padding: 3rem 2rem;
+    margin-top: 3.5rem;
+    border-radius: 1rem;
+
+    background-color: var(--rosa-claro);
+}
+
+.hero article li {
+    margin-left: 3rem;
+    color: var(--rosa);
+    padding-left: 2rem;
+}
+
+.hero article h2 {
+    font-family: 'Outfit', sans-serif;
+    color: var(--rosa);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.hero article p {
+    color: var(--marrom-medio);
+    margin-top: 1.3rem;
+}
+
+/* INGREDIENTES */
+
+main section {
+    border-bottom: .1rem var(--cinza-claro) solid;
+    padding: 3.5rem 0;
+}
+
+.ingredientes h2, .instrucoes h2, .nutricional h2 {
+    margin-bottom: 2rem;
+}
+
+.ingredientes li {
+    margin-left: 2.5rem;
+    padding-left: 2rem;
+    color: var(--marrom);
+}
+
+.ingredientes li p {
+    color: var(--marrom-medio);
+    margin-top: 1.3rem;
+}
+
+/* INSTRUÇÕES */
+
+.instrucoes li {
+    margin-left: 2.5rem;
+    padding-left: 2rem;
+    list-style-type: decimal;
+    color: var(--marrom);
+    font-weight: 700;
+}
+
+.instrucoes li p {
+    color: var(--marrom-medio);
+    margin-top: 1.3rem;
+    font-weight: 400;
+}
+
+/* TABELA NUTRICIONAL */
+
+.nutricional p {
+    margin-bottom: 2rem;
+}
+
+.nutricional li {
+    display: flex;
+    border-bottom: .1rem var(--cinza-claro) solid;
+    padding: 1rem 0;
+
+    color: var(--marrom);
+}
+
+.nutricional h3 {
+    font-weight: 400;
+    color: var(--marrom-medio);
+    margin-left: 3rem;
+    width: 50%;
+}
+
+.nutricional span {
+    font-weight: 700;
+}
+
+/* CRÉDITOS DE USO */
+
+main section:last-of-type {
+    border-bottom: none;
+}
+
+.atribuicao {
+    font-size: 1rem; 
+    text-align: center;
+}
+.atribuicao a {
+    color: #854632;
+}

@@ -1,0 +1,15 @@
+:root {
+    font-size: 62.5%; /* isso significa que é 62.5% de 16px = 10px */
+
+    --branco: #ffffff;
+
+    --casca-de-ovo: #f3e6d8;
+    --cinza-claro: #e4ded8;
+    --marrom-medio: #5f574e;
+    --cinza-escuro: #302d2c;
+
+    --marrom: #854632;
+    
+    --rosa: #7b284f;
+    --rosa-claro: #fff5fa;
+}
