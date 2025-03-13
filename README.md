@@ -6,6 +6,7 @@ Este repositório contém a solução para o desafio proposto pelo [Frontend Men
 O desafio foi projetar uma página que se adaptasse de maneira eficiente a diferentes dispositivos e tamanhos de tela, garantindo uma experiência de navegação fluida para o usuário e fixando conceitos de display flex.
 
 ## ✨ Design do Projeto
+![image](https://github.com/user-attachments/assets/5021699a-8e0a-4f77-8c14-f6d53dee3087)
 
 ## Tecnologias Utilizadas
 - **HTML5**: Utilizado para criar a estrutura e semântica da página.
