@@ -23,4 +23,4 @@ O desafio foi projetar uma página que se adaptasse de maneira eficiente a difer
 1. Clone este repositório.
 2. Abra o arquivo `index.html` em seu navegador de preferência.
 
-Se gostou do projeto, não esqueça de deixar uma estrela! ⭐
+#### Se gostou do projeto, não esqueça de deixar uma estrela! ⭐
